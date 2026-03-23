@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.top-section {
+  background: linear-gradient(135deg, #6d28d9, #7c3aed);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.top-section h1 {
+  margin: 0 0 25px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#input-el {
+  width: 120px;
+  height: 80px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  font-size: 42px;
+  font-weight: 800;
+  text-align: center;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+#convert-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: #3d3d3d;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.bottom-section {
+  background: #f3f4f6;
+  padding: 30px 20px;
+}
+
+.card {
+  background: white;
+  margin-bottom: 20px;
+  padding: 25px 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.card h2 {
+  margin: 0 0 15px;
+  color: #5b537a;
+  font-size: 24px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+  color: #4b5563;
+  line-height: 1.6;
+}
